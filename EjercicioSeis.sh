@@ -1,4 +1,4 @@
-result = ../Videos
+result=$1
 if test -f "$result";
 then
         echo "$result es un fichero"
